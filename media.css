@@ -1,3 +1,23 @@
+/* tablet */
+@media (max-width: 992px) {
+    .hero {
+        background-size: cover;
+        background-position: center;
+        height: 80vh;
+        width: 100%;
+        padding: 40px;
+    }
+
+    .section-padding {
+        padding: 50px 0;
+    }
+
+    .form {
+        width: 100%;
+        padding: 20px
+    }
+}
+
 /* mobile */
 @media (max-width: 768px) {
     .hero {
@@ -16,20 +36,19 @@
         height: 30vh;
     }
 
-
-}
-
-/* tablet */
-@media (max-width: 992px) {
-    .hero {
-        background-size: cover;
-        background-position: center;
-        height: 80vh;
-        width: 100%;
-        padding: 40px;
+    .container,
+    .container-md,
+    .container-sm {
+        max-width: 720px;
     }
 
-    .section-padding {
-        padding: 50px 0;
+    .submit-btn {
+        position: static;
+        margin: 10px auto 0;
     }
+
+    .form-submit {
+        text-align: center;
+    }
+
 }
